@@ -1,0 +1,43 @@
+body {
+	background:beige;
+	margin:0px;
+	padding:0px;
+}
+
+#wrapper {
+
+	width:1000px;
+	background-color:white;
+	padding:50px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+@media only screen and (max-width: 1200px) {
+	#wrapper {
+		width:800px;
+	}
+}
+
+#left_column{ 
+	background-color:#CFCFCF;
+	width:590px; 
+	padding:20px;
+	float:left;
+}
+
+#right_column{
+	background-color:#ABABAB;
+	width:590px;
+	padding:20px;
+	float:left;
+
+}
+
+.imgresponsive {
+	width:100%;
+}
+
+.clr{
+	clear:both;
+}
