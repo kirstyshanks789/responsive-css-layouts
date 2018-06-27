@@ -19,18 +19,26 @@ body {
 	}
 }
 
+@media only screen and (max-width: 800px) {
+	#wrapper {
+		width:600px;
+		padding: none;}
+}
+
 #left_column{ 
 	background-color:#CFCFCF;
-	width:590px; 
+	width:50%; 
 	padding:20px;
 	float:left;
+	box-sizing: border-box;
 }
 
 #right_column{
 	background-color:#ABABAB;
-	width:590px;
+	width:50%;
 	padding:20px;
 	float:left;
+	box-sizing: border-box;
 
 }
 
